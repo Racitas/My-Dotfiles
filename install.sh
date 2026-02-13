@@ -4,4 +4,7 @@ sudo pacman -S --needed sddm qt6-svg qt6-virtualkeyboard qt6-multimedia-ffmpeg h
 
 #copy_files
 
-sudo cp -Rf ~/test /home/daniel/Pictures/
+sudo cp -a ghostty hypr swaync waybar yazi ~/.config/
+
+sudo cp -a rofi ~/.local/share/
+
