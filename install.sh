@@ -1,6 +1,5 @@
 #!/bin/bash
 
-install_dependencies () {
-    if command -v pacman &>/dev/null; then
-        echo -e "${grey}Installing dependencies with 'pacman'...${reset}"
-        sudo pacman -S --needed sddm qt6-svg qt6-virtualkeyboard qt6-multimedia-ffmpeg hyprland hyprpicker hyprpaper hyprlock hyprshot bluetui wiremix waybar neovim yazi udiskie udisks2 zoxide swaync rofi noto-fonts noto-fonts-cjk noto-fonts-extra ghostty fzf helvum iwd bazaar btop dhcpcd flatpak firefox
+sudo pacman -S --needed sddm qt6-svg qt6-virtualkeyboard qt6-multimedia-ffmpeg hyprland hyprpicker hyprpaper hyprlock hyprshot bluetui wiremix waybar neovim yazi udiskie udisks2 zoxide swaync rofi noto-fonts noto-fonts-cjk noto-fonts-extra ghostty fzf helvum iwd bazaar btop dhcpcd flatpak firefox
+
+
