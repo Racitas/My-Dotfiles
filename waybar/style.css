@@ -1,0 +1,158 @@
+* {
+    border: none;
+    font-family: "JetBrainsMono Nerd Font Propo";
+    font-weight: bold;
+    font-size: 1.2rem;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*.modules-center {
+    background: #004f54;
+    padding: 6px 12px;
+    border-radius: 28px;
+} */ 
+
+window#waybar {
+    background: transparent;
+}
+
+tooltip {
+  background: black;
+  border: 1px solid rgba(100, 114, 125, 0.5);
+  border-radius: 5;
+}
+tooltip label {
+  color: white;
+}
+
+#workspaces {
+    transition: all 250ms ease-in-out;
+}
+
+#workspaces button {
+    transition: all 250ms ease-in-out;
+    padding: 2px 2px;
+    margin: 0 2px;
+    min-width: 40px;
+    background: #222436;
+    color: #B9C3E3;
+    border-radius: 5px;
+}
+
+#workspaces button.active {
+    transition: all 250ms ease-in-out;
+    min-width: 45px;
+    border-radius: 5px;
+    background: #3B4261;
+    color: white;
+}
+
+#workspaces button.hover {
+    min-width: 40px;
+    border-radius: 5px;
+    background: #B9C3E3;
+    color: white;
+}
+
+#clock {
+    min-width: 70px;
+    margin: 0 2px 0 10px;
+    border-radius: 5px;
+    background-color: #3B4261;
+    color: #B9C3E3;
+}
+
+#network {
+    background-color: #3B4261;
+    color: #B9C3E3;
+    padding: 0 5px;
+    margin: 0 2px;
+    border-radius: 5px;
+    min-width: 30px;
+}
+
+#pulseaudio {
+    background-color: #3B4261;
+    color: #B9C3E3;
+    padding: 0 5px;
+    margin: 0 2px;
+    border-radius: 5px;
+    min-width: 30px;
+}
+
+#custom-power {
+    padding: 0 5px;
+    margin: 0 10px 0 2px;
+    border-radius: 5px;
+    background-color: #3B4261;
+    color: #B9C3E3;
+    min-width: 30px;
+}
+
+#custom-notifications {
+    padding: 0 5px;
+    margin: 0 2px;
+    border-radius: 5px;
+    background-color: #3B4261;
+    color: #B9C3E3;
+    min-width: 30px;
+}
+
+#bluetooth {
+    background-color: #3B4261;
+    color: #B9C3E3;
+    padding: 0 5px;
+    margin: 0 2px;
+    border-radius: 5px;
+    min-width: 30px;
+}
+
+#tray {
+    background-color: #3B4261;
+    color: #B9C3E3;
+    padding: 0 5px;
+    margin: 0 2px;
+    border-radius: 5px;
+    min-width: 30px
+}
+
+#mpris {
+    background-color: #3B4261;
+    color: #B9C3E3;
+    padding: 0 5px;
+    margin: 0 2px;
+    border-radius: 5px;
+}
+
+#pulseaudio-slider {
+    background-color: #3B4261;
+    color: #B9C3E3;
+    padding: 0 5px;
+    margin: 0 2px;
+    border-radius: 5px;
+}
+
+#pulseaudio-slider slider {
+   min-height: 0px;
+   min-width: 0px;
+   opacity: 0;
+   background-image: none;
+   border: none;
+   box-shadow: none;
+}
+
+#pulseaudio-slider trough {
+   min-height: 10px;
+   min-width: 80px;
+   border-radius: 5px;
+   background: #222436;
+}
+
+#pulseaudio-slider highlight {
+   min-width: 10px;
+   border-radius: 5px;
+   background: #B9C3E3;
+}
+
