@@ -1,0 +1,59 @@
+{
+    "logo": {
+        "source": "~/.config/fastfetch/stanze_slant.txt", 
+        "padding": {
+	        "top": 1,
+	        "left": 2
+	},
+    },
+    "display": {
+        "separator": " : "
+    },
+    "modules": [
+	"break",
+	"title",
+        {
+            "type": "os",
+            "key": " ",
+            "format": "Arch",
+        },
+        {   "type": "wm",
+            "key" : " ",
+            "format": "Hyprland",
+        },
+        {
+            "type": "packages",
+            "format": "{} (pacman)",
+            "key": "󰏗 ", 
+        },
+        {   "type": "shell",
+            "key": " ",
+        }, 
+        {
+            "type": "cpu",
+            "key": " ",
+            "format": "{name}"
+        },
+        {
+            "type": "gpu",
+            "key": "󰾲 ",
+            "detectionMethod": "pci",
+            "format": "{name}"
+        },
+        {
+            "type": "memory",
+            "key": " ",
+        },
+        {
+            "type": "uptime",
+            "format": "{2}h {3}m",
+            "key": " ",
+        },
+        "break",
+        {
+            "type": "colors",
+            "symbol": "circle"
+        },
+        "break"
+    ]
+}
